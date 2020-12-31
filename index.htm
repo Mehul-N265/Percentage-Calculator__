@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Just Calculate</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">Just Calculate</div>
+	<div class="card">
+		
+		<div class="col-1">
+			<label for="score">
+				Marks Scored:<br>
+				<input type="number" name="score" id="score" placeholder="Marks Scored..." value="" required />
+			</label>
+		</div>
+		<div class="col-2">
+			<label for="total">
+				Total Marks: <br>
+				<input type="number" name="total" id="total" placeholder="Total Marks.." value="" required />
+			</label>
+		</div>
+		<button type="submit" onclick="calculate()">Submit</button>
+		<div class="output" id="answer">
+			<h3 id="result"></h3>
+			<h4 id="grade"></h4>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

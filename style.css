@@ -1,0 +1,68 @@
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+body {
+	background: linear-gradient(to left,rgb(20,40,150),rgb(40,200,10));
+	color: black;
+	font-family: 'Audiowide',Ubuntu,cursive,sans-serif;
+}
+.card {
+	position: absolute;
+	left: 46%;
+	margin-left: -200px;
+	top: 120px;
+	background-color: black;
+	text-align: left;
+	color: white;
+	padding: 40px;
+	border-radius: 10px;
+	font-size: 20px;
+	height: 400px;
+	box-shadow: 0px 8px 8px 5px black;
+}
+.header {
+	position: absolute;
+	left: 47%;
+	margin-left: -210px;
+	top: 30px;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background-color: white;
+	padding: 30px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px; 
+	z-index: -1;
+}
+input[type="number"]{
+	padding: 10px;
+	background-color: cyan;
+	margin: 10px;
+	border-radius: 10px;
+	color: black;
+	font-size: 20px;
+	outline: none;
+}
+button[type="submit"]{
+	width: 100%;
+	padding: 10px;
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+	margin: 5px;
+}
+.output {
+	display: none;
+	position: relative;
+	top: -20px;
+	width: 100%;
+	color: black;
+	text-align: justify;
+	background-color: rgb(255,255,255);
+	vertical-align: center;
+	height: 100px;
+	border-radius: 10px;
+	z-index: 1;
+}
